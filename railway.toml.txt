@@ -1,0 +1,6 @@
+[build]
+builder = "dockerfile"
+
+[deploy]
+startCommand = "/usr/local/bin/flaresolverr"
+restartPolicyType = "always"

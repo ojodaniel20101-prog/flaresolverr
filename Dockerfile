@@ -1,0 +1,5 @@
+FROM ghcr.io/flaresolverr/flaresolverr:latest
+ENV LOG_LEVEL=info
+ENV LOG_HTML=false
+ENV CAPTCHA_SOLVER=none
+EXPOSE 8191
